@@ -5,7 +5,7 @@ body {
 }
 
 img {
-   max-height: 100vh;
+   max-width: 80vh;
 }
 
 .sidebar {
