@@ -4,8 +4,11 @@ body {
    font-family: "Open Sans", sans-serif;
 }
 
-img {
-   max-width: 80vh;
+.large-img {
+   max-width: 70vh;
+}
+.small-img {
+   max-width: 70vw;
 }
 
 .sidebar {
