@@ -10,7 +10,10 @@
     <h1>Projects</h1>
     <h2>2019</h2>
     <ul>
-      <li><strong>Semantic Text Similarity on Biomedical text</strong>: [ongoing] Predicting semantic similarity between two given biomedical sentences from patient records. Utilizing word2vec, BERT and Random forest regression.</li>
+      <li><strong><a href="https://github.com/jiteshpabla/clinical_semantic_text_similarity">Semantic Text Similarity (STS) on Biomedical text</a></strong>: Preprocessed the clinical text to remove stop words, punctuation etc. and utilized various word2vec pre-trained models to extract token embeddings in order to create a single vector representation for each sentence.
+Fine-tuned multiple Bidirectional Encoder Representations from Transformers (BERT) models on the given STS dataset and extracted vector representation for each sentence.
+Engineered several similarity features based on the extracted sentence vectors and applied gradient boosting regression to achieve a Pearson correlation greater than 0.84 between the ground truth and the model’s predictions.
+</li>
       <li><strong><a href="https://github.com/jiteshpabla/face-generation-using-text">Text-to-face generation</a></strong>: Investigated and summarized various methods for facial image generation using text description of a face. Collected a dataset of text
         descriptions of hundreds of images from Labelled Faces in the Wild dataset and utilized word2vec to create text embeddings. Programmed a Keras implementation of StackGAN (a variation of Generative Adversarial Networks) and trained it to generate
         facial images using the collected dataset.
