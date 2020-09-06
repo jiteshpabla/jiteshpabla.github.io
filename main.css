@@ -17,6 +17,12 @@ img {
    max-width: 70vw;
 }
 
+.buttons-section {
+   align-items: center;
+   justify-content: center;
+   margin: 0.8em;
+}
+
 .sidebar {
    text-align: center;
    display: flex;
@@ -26,16 +32,12 @@ img {
 }
 
 .sidebar > h1 {
-   font-size: 5em;
+   font-size: 4em;
    margin-top: 0.5em;
 }
 
-.sidebar > h3 {
-   font-size: 3em;
-}
-
 .about > p {
-   margin: 2em;
+   margin: 1.2em;
    font-size: 1.5em;
 }
 
