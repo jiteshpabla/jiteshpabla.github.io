@@ -72,6 +72,6 @@ img {
 
 .icons-social a:hover,
 span.md {
-   -webkit-text-stroke-width: 1.4px;
+   /*-webkit-text-stroke-width: 1.4px;*/
    -webkit-text-stroke-color: black;
 }
